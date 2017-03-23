@@ -15,6 +15,13 @@
 		7108A6A31E838B53002FBC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7108A6A11E838B53002FBC3A /* LaunchScreen.storyboard */; };
 		7108A6AE1E838B53002FBC3A /* YTGoodsDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6AD1E838B53002FBC3A /* YTGoodsDetailDemoTests.m */; };
 		7108A6B91E838B53002FBC3A /* YTGoodsDetailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6B81E838B53002FBC3A /* YTGoodsDetailDemoUITests.m */; };
+		7108A6C81E838C78002FBC3A /* GoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6C71E838C78002FBC3A /* GoodsDetailViewController.m */; };
+		7108A6CB1E838D62002FBC3A /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7108A6CA1E838D62002FBC3A /* ic_back@2x.png */; };
+		7108A6D41E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6CF1E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.m */; };
+		7108A6D51E838D7E002FBC3A /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6D11E838D7E002FBC3A /* LxButton.m */; };
+		7108A6D61E838D7E002FBC3A /* UILabel+LXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6D31E838D7E002FBC3A /* UILabel+LXLabel.m */; };
+		7108A6DC1E839F65002FBC3A /* YQAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A6DB1E839F65002FBC3A /* YQAnimatedTransition.m */; };
+		7108A6DE1E83A16A002FBC3A /* headimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7108A6DD1E83A16A002FBC3A /* headimage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		7108A6B41E838B53002FBC3A /* YTGoodsDetailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTGoodsDetailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7108A6B81E838B53002FBC3A /* YTGoodsDetailDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTGoodsDetailDemoUITests.m; sourceTree = "<group>"; };
 		7108A6BA1E838B53002FBC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7108A6C61E838C78002FBC3A /* GoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsDetailViewController.h; sourceTree = "<group>"; };
+		7108A6C71E838C78002FBC3A /* GoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailViewController.m; sourceTree = "<group>"; };
+		7108A6C91E838D40002FBC3A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7108A6CA1E838D62002FBC3A /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
+		7108A6CE1E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		7108A6CF1E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		7108A6D01E838D7E002FBC3A /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxButton.h; sourceTree = "<group>"; };
+		7108A6D11E838D7E002FBC3A /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxButton.m; sourceTree = "<group>"; };
+		7108A6D21E838D7E002FBC3A /* UILabel+LXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXLabel.h"; sourceTree = "<group>"; };
+		7108A6D31E838D7E002FBC3A /* UILabel+LXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXLabel.m"; sourceTree = "<group>"; };
+		7108A6DA1E839F65002FBC3A /* YQAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAnimatedTransition.h; sourceTree = "<group>"; };
+		7108A6DB1E839F65002FBC3A /* YQAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAnimatedTransition.m; sourceTree = "<group>"; };
+		7108A6DD1E83A16A002FBC3A /* headimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headimage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +125,14 @@
 				7108A6971E838B53002FBC3A /* AppDelegate.m */,
 				7108A6991E838B53002FBC3A /* ViewController.h */,
 				7108A69A1E838B53002FBC3A /* ViewController.m */,
+				7108A6C61E838C78002FBC3A /* GoodsDetailViewController.h */,
+				7108A6C71E838C78002FBC3A /* GoodsDetailViewController.m */,
+				7108A6DA1E839F65002FBC3A /* YQAnimatedTransition.h */,
+				7108A6DB1E839F65002FBC3A /* YQAnimatedTransition.m */,
+				7108A6C91E838D40002FBC3A /* PrefixHeader.pch */,
+				7108A6CA1E838D62002FBC3A /* ic_back@2x.png */,
+				7108A6DD1E83A16A002FBC3A /* headimage.png */,
+				7108A6CC1E838D7E002FBC3A /* Category */,
 				7108A69C1E838B53002FBC3A /* Main.storyboard */,
 				7108A69F1E838B53002FBC3A /* Assets.xcassets */,
 				7108A6A11E838B53002FBC3A /* LaunchScreen.storyboard */,
@@ -138,6 +166,27 @@
 				7108A6BA1E838B53002FBC3A /* Info.plist */,
 			);
 			path = YTGoodsDetailDemoUITests;
+			sourceTree = "<group>";
+		};
+		7108A6CC1E838D7E002FBC3A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7108A6CD1E838D7E002FBC3A /* FDFullscreenPopGesture */,
+				7108A6D01E838D7E002FBC3A /* LxButton.h */,
+				7108A6D11E838D7E002FBC3A /* LxButton.m */,
+				7108A6D21E838D7E002FBC3A /* UILabel+LXLabel.h */,
+				7108A6D31E838D7E002FBC3A /* UILabel+LXLabel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7108A6CD1E838D7E002FBC3A /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				7108A6CE1E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.h */,
+				7108A6CF1E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +298,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7108A6DE1E83A16A002FBC3A /* headimage.png in Resources */,
 				7108A6A31E838B53002FBC3A /* LaunchScreen.storyboard in Resources */,
 				7108A6A01E838B53002FBC3A /* Assets.xcassets in Resources */,
 				7108A69E1E838B53002FBC3A /* Main.storyboard in Resources */,
+				7108A6CB1E838D62002FBC3A /* ic_back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7108A6D41E838D7E002FBC3A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				7108A6DC1E839F65002FBC3A /* YQAnimatedTransition.m in Sources */,
+				7108A6D51E838D7E002FBC3A /* LxButton.m in Sources */,
+				7108A6C81E838C78002FBC3A /* GoodsDetailViewController.m in Sources */,
 				7108A69B1E838B53002FBC3A /* ViewController.m in Sources */,
+				7108A6D61E838D7E002FBC3A /* UILabel+LXLabel.m in Sources */,
 				7108A6981E838B53002FBC3A /* AppDelegate.m in Sources */,
 				7108A6951E838B53002FBC3A /* main.m in Sources */,
 			);
@@ -430,7 +486,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WEEDGBG93S;
+				GCC_PREFIX_HEADER = /Users/TonyAng/Desktop/YTGoodsDetailDemo/YTGoodsDetailDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = YTGoodsDetailDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TonyAng.YTGoodsDetailDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +500,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WEEDGBG93S;
+				GCC_PREFIX_HEADER = /Users/TonyAng/Desktop/YTGoodsDetailDemo/YTGoodsDetailDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = YTGoodsDetailDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TonyAng.YTGoodsDetailDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +578,7 @@
 				7108A6BF1E838B53002FBC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7108A6C01E838B53002FBC3A /* Build configuration list for PBXNativeTarget "YTGoodsDetailDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +587,7 @@
 				7108A6C21E838B53002FBC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7108A6C31E838B53002FBC3A /* Build configuration list for PBXNativeTarget "YTGoodsDetailDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +596,7 @@
 				7108A6C51E838B53002FBC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
